@@ -82,7 +82,7 @@ async function createEvent(eventName, description, date, phoneNumber, duration =
         
         //const fechaHora = endDateTime.toISOString();
         // Convertir a la zona horaria deseada
-        const localDateTime = moment(date).tz('America/Bogota').format('YYYY-MM-DD HH:mm:ss');
+        const localDateTime = moment(date).tz('America/Montevideo').format('YYYY-MM-DD HH:mm:ss');
         // Insertar en Google Sheets
         await appendToSheet([[eventId, phoneNumber, localDateTime]]);
 
