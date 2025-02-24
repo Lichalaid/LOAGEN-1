@@ -16,18 +16,18 @@ const auth = new google.auth.GoogleAuth({
 const calendar = google.calendar({ version: "v3" });
 
 //Constantes configurables
-const calendarID = 'c3c562b997d4d6e2161aa36346a257dfe8826b9b59631839ea0357b9cb4bf732@group.calendar.google.com';
-const timeZone = 'America/Bogota';
+const calendarID = '59fcf71e124e2765f5464798b4c660a4a093c5a828c06807703202b7f1d33a3f@group.calendar.google.com';
+const timeZone = 'America/Montevideo';
 
 const rangeLimit = {
     days: {
-        0: { startHour: 10, endHour: 16 }, // Domingo
-        1: { startHour: 8, endHour: 20 },  // Lunes
-        2: { startHour: 9, endHour: 18 },  // Martes
-        3: { startHour: 8, endHour: 19 },  // Miércoles
-        4: { startHour: 9, endHour: 17 },  // Jueves
-        5: { startHour: 10, endHour: 15 }, // Viernes
-        6: { startHour: 11, endHour: 14 }, // Sábado
+        0: { startHour: 10, endHour: 18 }, // Domingo
+        1: { startHour: 10, endHour: 18 },  // Lunes
+        2: { startHour: 10, endHour: 18 },  // Martes
+        3: { startHour: 10, endHour: 18 },  // Miércoles
+        4: { startHour: 10, endHour: 18 },  // Jueves
+        5: { startHour: 10, endHour: 18 }, // Viernes
+        6: { startHour: 10, endHour: 18 }, // Sábado
     }
 };
 
@@ -83,7 +83,7 @@ async function createEvent(eventName, description, date, phoneNumber, duration =
         
         //const fechaHora = endDateTime.toISOString();
         // Convertir a la zona horaria deseada
-        const localDateTime = moment(date).tz('America/Bogota').format('YYYY-MM-DD HH:mm:ss');
+        const localDateTime = moment(date).tz('America/Montevideo').format('YYYY-MM-DD HH:mm:ss');
         // Insertar en Google Sheets
         await appendToSheet2([[eventId, phoneNumber, localDateTime]]);
 
