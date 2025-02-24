@@ -1,0 +1,113 @@
+MANICURE
+Descripción:
+Este flujo guía al usuario cuando menciona "manicure" o expresa la intención de agendar, modificar o cancelar una cita para este servicio.
+
+Ejemplos de intenciones:
+
+"Quiero hacerme las uñas"
+"Necesito una cita para un manicure"
+"¿Tienen servicio de manicure?"
+"Quiero agendar un manicure para mañana"
+"Necesito cambiar mi cita de manicure"
+"Quiero cancelar mi cita de manicure"
+Criterio:
+Si el usuario menciona "manicure" o términos relacionados, se redirige al flujo correspondiente.
+
+MAQUILLAJE
+Descripción:
+Este flujo se activa cuando el usuario menciona "maquillaje" o quiere gestionar una cita para este servicio.
+
+Ejemplos de intenciones:
+
+"Quiero un maquillaje profesional"
+"Necesito una cita para maquillaje"
+"¿Cuánto cuesta un maquillaje?"
+"Me gustaría agendar un maquillaje para el fin de semana"
+"Quiero cambiar mi cita de maquillaje"
+"Quiero cancelar mi cita de maquillaje"
+Criterio:
+Si el usuario menciona "maquillaje", se redirige al flujo correspondiente.
+
+PESTAÑAS
+Descripción:
+Este flujo se activa cuando el usuario menciona "pestañas" o tiene intención de gestionar una cita para este servicio.
+
+Ejemplos de intenciones:
+
+"Quiero hacerme las pestañas"
+"¿Tienen servicio de extensiones de pestañas?"
+"Necesito una cita para pestañas"
+"Quiero cambiar mi cita para pestañas"
+"Quiero cancelar mi cita de pestañas"
+Criterio:
+Si el usuario menciona "pestañas", se redirige al flujo correspondiente.
+
+COLORACIÓN
+Descripción:
+Este flujo se activa cuando el usuario menciona "coloración", "tinte", "mechas", "balayage" o desea gestionar una cita para este servicio.
+
+Ejemplos de intenciones:
+
+"Quiero teñirme el cabello"
+"Necesito una cita para coloración"
+"¿Cuánto cuesta el tinte?"
+"Me gustaría cambiar mi cita de coloración"
+"Quiero cancelar mi cita de coloración"
+Criterio:
+Si el usuario menciona "coloración", se redirige al flujo correspondiente.
+
+CORTE DE CABELLO
+Descripción:
+Este flujo se activa cuando el usuario menciona "corte de cabello" o tiene intención de gestionar una cita para este servicio.
+
+Ejemplos de intenciones:
+
+"Necesito un corte de cabello"
+"Quiero cortarme el pelo"
+"¿Cuánto cuesta un corte de cabello?"
+"Quiero cambiar mi cita para el corte"
+"Quiero cancelar mi cita de corte de cabello"
+Criterio:
+Si el usuario menciona "corte de cabello", se redirige al flujo correspondiente.
+
+FACIAL
+Descripción:
+Este flujo se activa cuando el usuario menciona "facial" o desea gestionar una cita para este servicio.
+
+Ejemplos de intenciones:
+
+"Quiero un facial"
+"¿Hacen limpiezas faciales?"
+"Necesito una cita para un tratamiento facial"
+"Quiero cambiar mi cita para el facial"
+"Quiero cancelar mi cita de facial"
+Criterio:
+Si el usuario menciona "facial", se redirige al flujo correspondiente.
+
+CANCELAR
+Descripción:
+Este flujo se activa cuando el usuario quiere cancelar una cita sin especificar el servicio o usa palabras clave como "cancelar", "anular" o "dar de baja una cita".
+
+Ejemplos de intenciones:
+
+"Quiero cancelar mi cita"
+"Necesito anular mi reserva"
+"¿Cómo cancelo mi cita en el salón?"
+"Deseo dar de baja mi cita"
+Criterio:
+Si el usuario menciona la intención de cancelar una cita sin especificar el servicio, se le debe preguntar por el tipo de cita que desea cancelar o redirigirlo al flujo correspondiente.
+
+FAQ
+Descripción:
+Este flujo responde preguntas generales sobre los servicios, precios, horarios y ubicación del salón. También se activa si el usuario solo escribe "necesito una cita".
+
+Ejemplos de intenciones:
+
+"Hola, ¿cómo estás?"
+"¿Cuáles son los precios?"
+"¿Qué servicios ofrecen?"
+"¿Dónde están ubicados?"
+"¿Atienden los domingos?"
+"Necesito una cita"
+Criterio:
+Si el usuario solicita información general o solo menciona "necesito una cita" sin especificar el servicio, se le debe redirigir a este flujo.
