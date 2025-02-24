@@ -7,7 +7,7 @@ import { config } from "~/config";
 const aiServiceInstance = new AiServices(config.ApiKey);
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-const DEFAULT_PROFESIONAL = " Belen Bentancort (otros)";
+const DEFAULT_PROFESIONAL = "Belen Bentancort (otros)";
 const DEFAULT_DURATION = 2; // 2 hora
 const DEFAULT_SERVICIO = "Maquillaje"
 const promptBase = `Eres un asistente virtual diseñado para ayudar a los usuarios a agendar citas mediante una conversación. 
