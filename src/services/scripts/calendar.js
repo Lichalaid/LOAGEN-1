@@ -16,7 +16,7 @@ const auth = new google.auth.GoogleAuth({
 const calendar = google.calendar({ version: "v3" });
 
 //Constantes configurables
-const calendarID = '6d7e3384c71e15281d9d8ad653b650728093808dbc3da3ec04b97ad354a83019@group.calendar.google.com';
+const calendarID = 'e226ea3e74debe53f6a1a5945234b36b20054f162f93109c495a9b45189c8125@group.calendar.google.com';
 const timeZone = 'America/Montevideo';
 
 const rangeLimit = {
@@ -31,7 +31,7 @@ const rangeLimit = {
 };
 
 
-const standardDuration = 1.0; //Duracion por defecto de las citas 
+const standardDuration = 2.0; //Duracion por defecto de las citas 
 const dateLimit = 30; //Maximo de dias a taer la lista de Next Events
 
 /**
