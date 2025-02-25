@@ -132,7 +132,7 @@ async function deleteFromSheet2(eventId: string, sheetName: string = 'AGENDA2') 
                 requests: [{
                     deleteDimension: {
                         range: {
-                            sheetId: 414148015, // Ajustar según el ID de la hoja
+                            sheetId: 1628790948, // Ajustar según el ID de la hoja
                             dimension: "ROWS",
                             startIndex: rowIndex + 1,
                             endIndex: rowIndex + 2
