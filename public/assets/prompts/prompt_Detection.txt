@@ -1,88 +1,88 @@
-MANICURE
+CEJAS
 Descripción:
-Este flujo guía al usuario cuando menciona "manicure" o expresa la intención de agendar, modificar o cancelar una cita para este servicio.
+Este flujo guía al usuario cuando menciona "cejas" o expresa la intención de agendar, modificar o cancelar una cita para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero hacerme las uñas"
-"Necesito una cita para un manicure"
-"¿Tienen servicio de manicure?"
-"Quiero agendar un manicure para mañana"
-"Necesito cambiar mi cita de manicure"
-"Quiero cancelar mi cita de manicure"
+"Quiero hacerme las cejas"
+"Necesito una cita para perfilado de cejas"
+"¿Hacen microblading?"
+"Quiero agendar un laminado de cejas"
+"Necesito cambiar mi cita de shading"
+"Quiero cancelar mi cita de microshading"
 Criterio:
-Si el usuario menciona "manicure" o términos relacionados, se redirige al flujo correspondiente.
+Si el usuario menciona "cejas" o términos relacionados como "perfilado", "microblading", "shading" o "laminado", se redirige al flujo correspondiente.
 
-MAQUILLAJE
+LABIOS
 Descripción:
-Este flujo se activa cuando el usuario menciona "maquillaje" o quiere gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "labios" o quiere gestionar una cita para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero un maquillaje profesional"
-"Necesito una cita para maquillaje"
-"¿Cuánto cuesta un maquillaje?"
-"Me gustaría agendar un maquillaje para el fin de semana"
-"Quiero cambiar mi cita de maquillaje"
-"Quiero cancelar mi cita de maquillaje"
+"Quiero hacerme un Full Lips"
+"Necesito una cita para Aquarella Lips"
+"¿Cuánto cuesta el Hidragloss?"
+"Me gustaría agendar un Full Lips para el fin de semana"
+"Quiero cambiar mi cita de micropigmentación de labios"
+"Quiero cancelar mi cita de labios"
 Criterio:
-Si el usuario menciona "maquillaje", se redirige al flujo correspondiente.
+Si el usuario menciona "labios" o tratamientos como "Full Lips", "Aquarella Lips" o "Hidragloss", se redirige al flujo correspondiente.
 
-PESTAÑAS
+DELINEADO DE PÁRPADOS
 Descripción:
-Este flujo se activa cuando el usuario menciona "pestañas" o tiene intención de gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "delineado de párpados" o quiere gestionar una cita para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero hacerme las pestañas"
-"¿Tienen servicio de extensiones de pestañas?"
-"Necesito una cita para pestañas"
-"Quiero cambiar mi cita para pestañas"
-"Quiero cancelar mi cita de pestañas"
+"Quiero hacerme un delineado de ojos"
+"¿Tienen delineado superior con colita?"
+"Necesito una cita para baby line"
+"Quiero cambiar mi cita de delineado grueso"
+"Quiero cancelar mi cita de delineado"
 Criterio:
-Si el usuario menciona "pestañas", se redirige al flujo correspondiente.
+Si el usuario menciona "delineado de párpados" o especifica "baby line", "con colita", "grueso" u otros estilos, se redirige al flujo correspondiente.
 
-COLORACIÓN
+PERFILADO Y LAMINADO DE CEJAS
 Descripción:
-Este flujo se activa cuando el usuario menciona "coloración", "tinte", "mechas", "balayage" o desea gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "perfilado", "laminado de cejas" o quiere gestionar una cita para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero teñirme el cabello"
-"Necesito una cita para coloración"
-"¿Cuánto cuesta el tinte?"
-"Me gustaría cambiar mi cita de coloración"
-"Quiero cancelar mi cita de coloración"
+"Quiero un perfilado de cejas"
+"¿Hacen laminado de cejas?"
+"Necesito una cita para perfilado con tinte"
+"Quiero cambiar mi cita de laminado"
+"Quiero cancelar mi cita de cejas"
 Criterio:
-Si el usuario menciona "coloración", se redirige al flujo correspondiente.
+Si el usuario menciona "perfilado", "laminado" o "tinte de cejas", se redirige al flujo correspondiente.
 
-CORTE DE CABELLO
+LIFTING DE PESTAÑAS
 Descripción:
-Este flujo se activa cuando el usuario menciona "corte de cabello" o tiene intención de gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "lifting de pestañas" o quiere gestionar una cita para este servicio.
 
 Ejemplos de intenciones:
 
-"Necesito un corte de cabello"
-"Quiero cortarme el pelo"
-"¿Cuánto cuesta un corte de cabello?"
-"Quiero cambiar mi cita para el corte"
-"Quiero cancelar mi cita de corte de cabello"
+"Quiero hacerme un lifting de pestañas"
+"¿Tienen lifting con botox nutritivo?"
+"Necesito una cita para lifting con tinte"
+"Quiero cambiar mi cita de pestañas"
+"Quiero cancelar mi cita de lifting de pestañas"
 Criterio:
-Si el usuario menciona "corte de cabello", se redirige al flujo correspondiente.
+Si el usuario menciona "lifting de pestañas" o tratamientos relacionados, se redirige al flujo correspondiente.
 
-FACIAL
+TRATAMIENTOS FACIALES
 Descripción:
-Este flujo se activa cuando el usuario menciona "facial" o desea gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "tratamientos faciales" o desea gestionar una cita para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero un facial"
-"¿Hacen limpiezas faciales?"
-"Necesito una cita para un tratamiento facial"
-"Quiero cambiar mi cita para el facial"
+"Quiero un tratamiento facial"
+"¿Hacen limpieza facial profunda?"
+"Necesito una cita para radiofrecuencia"
+"Quiero cambiar mi cita de limpieza aclaradora"
 "Quiero cancelar mi cita de facial"
 Criterio:
-Si el usuario menciona "facial", se redirige al flujo correspondiente.
+Si el usuario menciona "facial" o tratamientos como "dermaplaning", "radiofrecuencia" o "limpieza con punta de diamantes", se redirige al flujo correspondiente.
 
 CANCELAR
 Descripción:
