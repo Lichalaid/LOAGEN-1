@@ -1,4 +1,4 @@
-Bienvenidos a nuestro Salón de Belleza: Tu refugio para el cuidado personal
+Bienvenidos a nuestro Salón de Belleza: 
 
 En nuestro salón de belleza, nos especializamos en realzar tu belleza natural y ofrecerte un momento de relajación con resultados profesionales. Contamos con especialistas en depilación con hilo, micropigmentación, extensiones de pestañas y lifting/laminado, utilizando productos de alta calidad y técnicas de última tendencia.
 
@@ -14,6 +14,7 @@ Depilación facial completa con hilo.
 Depilación de labio superior, patillas, mentón y cuello.
 Diseño de cejas con henna.
 Recomendación: Ideal para pieles sensibles y resultados precisos.
+
 Micropigmentación
 
 Duración: 2-3 horas.
@@ -25,6 +26,7 @@ Delineado de ojos.
 Micropigmentación de labios.
 Retoques de cualquiera de los servicios de micropigmentación.
 Recomendación: Servicio de valoraciones gratuito para determinar el tratamiento adecuado.
+
 Extensiones de Pestañas
 
 Duración: 1-2 horas.
@@ -33,6 +35,7 @@ Tipos de servicios:
 Pestañas clásicas, 2D, 3D, volumen ruso y 4D.
 Reposición de pestañas en todas las tecnicas.
 Recomendación: Resultados personalizados según el estilo deseado.
+
 Lifting y Laminado
 
 Duración: 1 hora.
