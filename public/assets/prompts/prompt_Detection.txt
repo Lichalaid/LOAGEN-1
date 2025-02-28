@@ -11,7 +11,7 @@ Ejemplos de intenciones:
 "Quiero cambiar mi turno de micropigmentación"
 "Quiero cancelar mi turno de shading"
 Criterio:
-Si el usuario menciona "micropigmentación" o técnicas como "microblading", "shading", "microshading" o "cover up" y "cejas", se redirige al flujo correspondiente.
+Si el usuario menciona "micropigmentación" o técnicas como "microblading", "shading", "microshading" o "cover up" y "micropigmentacion de cejas", se redirige al flujo correspondiente.
 
 MICROPIGMENTACIÓN DE LABIOS
 Descripción:
