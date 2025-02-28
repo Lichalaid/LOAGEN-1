@@ -8,8 +8,8 @@ const aiServiceInstance = new AiServices(config.ApiKey);
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const DEFAULT_PROFESIONAL = "Sandra Muñoz";
-const DEFAULT_DURATION = 1.5; // 1.5 hora
-const DEFAULT_SERVICIO = "Manicure"
+const DEFAULT_DURATION = 0.5; // 0.5 hora
+const DEFAULT_SERVICIO = "Depilacion"
 const promptBase = `Eres un asistente virtual diseñado para ayudar a los usuarios a agendar citas mediante una conversación. 
 Tu objetivo es únicamente ayudar al usuario a elegir un horario y una fecha para sacar turno. 
 Te voy a dar la fecha solicitada por el usuario y la disponibilidad de la misma. 
