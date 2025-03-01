@@ -5,9 +5,10 @@ Este flujo guía al usuario cuando menciona "micropigmentación de cejas" o cual
 Ejemplos de intenciones:
 
 "Quiero hacerme microblading"
-"Necesito un turno para shading"
-"¿Cuánto cuesta el microshading?"
-"Me gustaría agendar un cover up"
+"Necesito un turno para micropigmentaciom"
+"¿Cuánto cuesta la micro?"
+"Dame turno de micropigmentacion de cejas"
+"Me gustaría agendar un microblading"
 "Quiero cambiar mi turno de micropigmentación"
 "Quiero cancelar mi turno de shading"
 Criterio:
@@ -88,7 +89,7 @@ Ejemplos de intenciones:
 "Quiero cancelar mi turno de facial"
 
 Criterio:
-Si el usuario menciona "facial" o tratamientos como "dermaplaning", "radiofrecuencia" o "limpieza con punta de diamantes", se redirige al flujo correspondiente.
+Si el usuario menciona "facial" o tratamientos como "dermaplaning", "radiofrecuencia", "limpieza con punta de diamantes", "tratamiento faacial" se redirige al flujo correspondiente.
 
 CANCELAR
 Descripción:
