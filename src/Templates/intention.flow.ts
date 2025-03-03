@@ -23,7 +23,7 @@ const promptDetected = fs.readFileSync(Prompt_DETECTED, "utf8");
 export const DetectIntention = createFlowRouting
   .setKeyword(EVENTS.ACTION)
   .setIntentions({
-    intentions: ["MANICURE", "MAQUILLAJE","PESTAÑAS","COLORACION","CORTECABLLO","FACIAL", "FAQ", "CANCELAR", "NO_DETECTED"],
+    intentions: ["MICROPIGMENTACION_DE_CEJAS", "MICROPIGMENTACIÓN_DE_LABIOS","MICROPIGMENTACIÓN_DE_PÁRPADOS","PERFILADO_Y_LAMINADO_DE_CEJAS","LIFTING_DE_PESTAÑAS","TRATAMIENTOS_FACIALES", "FAQ", "CANCELAR", "NO_DETECTED"],
     description: promptDetected,
   })
   .setAIModel({
@@ -43,27 +43,27 @@ export const DetectIntention = createFlowRouting
             return gotoFlow(faqFlow);
           }
 
-          if ((await state.get("intention")) === "MANICURE") {
+          if ((await state.get("intention")) === "MICROPIGMENTACION_DE_CEJAS") {
             return gotoFlow(manicureflow);
           }
 
-          if ((await state.get("intention")) === "MAQUILLAJE") {
+          if ((await state.get("intention")) === "MICROPIGMENTACIÓN_DE_LABIOS") {
             return gotoFlow(maquillajeflow);
           }
 
-          if ((await state.get("intention")) === "PESTAÑAS") {
+          if ((await state.get("intention")) === "MICROPIGMENTACIÓN_DE_PÁRPADOS") {
             return gotoFlow(pestañasflow);
           }
 
-          if ((await state.get("intention")) === "COLORACION") {
+          if ((await state.get("intention")) === "PERFILADO_Y_LAMINADO_DE_CEJAS") {
             return gotoFlow(coloracionflow);
           }
 
-          if ((await state.get("intention")) === "CORTECABLLO") {
+          if ((await state.get("intention")) === "LIFTING_DE_PESTAÑAS") {
             return gotoFlow(cortecabelloflow);
           }
 
-          if ((await state.get("intention")) === "FACIAL") {
+          if ((await state.get("intention")) === "TRATAMIENTOS_FACIALES") {
             return gotoFlow(facialflow);
           }
 
