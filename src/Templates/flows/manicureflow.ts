@@ -9,7 +9,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const DEFAULT_PROFESIONAL = "Belen Bentancort (otros)";
 const DEFAULT_DURATION = 0.8; // 45 minutos
-const DEFAULT_SERVICIO = "Perfilado y laminado de cejas"
+const DEFAULT_SERVICIO = "PERFILADO Y LAMINADO DE CEJAS"
 const promptBase = `Eres un asistente virtual diseñado para ayudar a los usuarios a agendar citas mediante una conversación. 
 Tu objetivo es únicamente ayudar al usuario a elegir un horario y una fecha para sacar turno. 
 Te voy a dar la fecha solicitada por el usuario y la disponibilidad de la misma. 
