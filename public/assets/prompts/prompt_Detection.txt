@@ -1,4 +1,4 @@
-CEJAS
+MICROPIGMENTACION DE CEJAS
 Descripción:
 Este flujo guía al usuario cuando menciona "micropigmentación de cejas" o cualquiera de sus técnicas y expresa la intención de agendar, modificar o cancelar un turno.
 
