@@ -11,6 +11,8 @@ Ejemplos de intenciones:
 "Me gustaría agendar un microblading"
 "Quiero cambiar mi turno de micropigmentación"
 "Quiero cancelar mi turno de shading"
+"Quiero agendar un microblading"
+"micropigmentacion de cejas"
 Criterio:
 Si el usuario menciona "cejas" o técnicas como "microblading", "shading", "microshading" o "cover up" y "micropigmentacion de cejas", se redirige al flujo correspondiente.
 
@@ -26,6 +28,8 @@ Ejemplos de intenciones:
 "Me gustaría agendar un Full Lips para el fin de semana"
 "Quiero cambiar mi turno de micropigmentación de labios"
 "Quiero cancelar mi turno de labios"
+"Quiero agendar un turno de labios"
+"micropigmentacion de labios"
 
 Criterio:
 Si el usuario menciona "labios" o tratamientos como "Full Lips", "Aquarella Lips" o "Hidragloss", se redirige al flujo correspondiente.
@@ -41,6 +45,8 @@ Ejemplos de intenciones:
 "Necesito un turno para baby line"
 "Quiero cambiar mi turno de delineado grueso"
 "Quiero cancelar mi turno de delineado de párpados"
+"Quiero agendar un delineado"
+"micropigmentacion de delineado"
 Criterio:
 Si el usuario menciona "párpados" o estilos como "baby line", "con colita" o "grueso", se redirige al flujo correspondiente.
 
@@ -55,7 +61,9 @@ Ejemplos de intenciones:
 "Necesito un turno para perfilado con tinte"
 "Quiero cambiar mi turno de laminado"
 "Quiero cancelar mi turno de cejas"
-
+"Quiero agendar un laminado"
+"perfilado"
+"laminado de cejas"
 Criterio:
 Si el usuario menciona "perfilado", "laminado" o "tinte de cejas", se redirige al flujo correspondiente.
 
@@ -71,6 +79,8 @@ Ejemplos de intenciones:
 "Necesito un turno para lifting con tinte"
 "Quiero cambiar mi turno de pestañas"
 "Quiero cancelar mi turno de lifting de pestañas"
+"Quiero agendar un lifting"
+"lifting de pestañas"
 
 Criterio:
 Si el usuario menciona "lifting de pestañas" o tratamientos relacionados, se redirige al flujo correspondiente.
@@ -87,6 +97,8 @@ Ejemplos de intenciones:
 "Necesito un turno para radiofrecuencia"
 "Quiero cambiar mi turno de limpieza aclaradora"
 "Quiero cancelar mi turno de facial"
+"Quiero agendar un tratamiento facial"
+"tramiento facial"
 
 Criterio:
 Si el usuario menciona "facial" o tratamientos como "dermaplaning", "radiofrecuencia", "limpieza con punta de diamantes", "tratamiento faacial" se redirige al flujo correspondiente.
@@ -101,6 +113,7 @@ Ejemplos de intenciones:
 "Necesito anular mi reserva"
 "¿Cómo cancelo mi turno en el salón?"
 "Deseo dar de baja mi cita"
+
 Criterio:
 Si el usuario menciona la intención de cancelar un turno sin especificar el servicio, se le debe preguntar por el tipo de cita que desea cancelar o redirigirlo al flujo correspondiente.
 
