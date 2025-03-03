@@ -12,7 +12,7 @@ Ejemplos de intenciones:
 "Quiero cambiar mi turno de micropigmentación"
 "Quiero cancelar mi turno de shading"
 Criterio:
-Si el usuario menciona "micropigmentación" o técnicas como "microblading", "shading", "microshading" o "cover up" y "micropigmentacion de cejas", se redirige al flujo correspondiente.
+Si el usuario menciona "cejas" o técnicas como "microblading", "shading", "microshading" o "cover up" y "micropigmentacion de cejas", se redirige al flujo correspondiente.
 
 MICROPIGMENTACIÓN DE LABIOS
 Descripción:
@@ -28,7 +28,7 @@ Ejemplos de intenciones:
 "Quiero cancelar mi turno de labios"
 
 Criterio:
-Si el usuario menciona "micropigmentación de labios" o tratamientos como "Full Lips", "Aquarella Lips" o "Hidragloss", se redirige al flujo correspondiente.
+Si el usuario menciona "labios" o tratamientos como "Full Lips", "Aquarella Lips" o "Hidragloss", se redirige al flujo correspondiente.
 
 MICROPIGMENTACIÓN DE PÁRPADOS
 Descripción:
@@ -42,7 +42,7 @@ Ejemplos de intenciones:
 "Quiero cambiar mi turno de delineado grueso"
 "Quiero cancelar mi turno de delineado de párpados"
 Criterio:
-Si el usuario menciona "micropigmentación de párpados" o estilos como "baby line", "con colita" o "grueso", se redirige al flujo correspondiente.
+Si el usuario menciona "párpados" o estilos como "baby line", "con colita" o "grueso", se redirige al flujo correspondiente.
 
 PERFILADO Y LAMINADO DE CEJAS
 Descripción:
