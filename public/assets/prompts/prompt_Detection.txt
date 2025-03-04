@@ -1,88 +1,94 @@
-CEJAS
+MICROPIGMENTACION DE CEJAS
 Descripción:
-Este flujo guía al usuario cuando menciona "cejas" o expresa la intención de agendar, modificar o cancelar una cita para este servicio.
+Este flujo guía al usuario cuando menciona "micropigmentación de cejas" o cualquiera de sus técnicas y expresa la intención de agendar, modificar o cancelar un turno.
 
 Ejemplos de intenciones:
 
-"Quiero hacerme las cejas"
-"Necesito una cita para perfilado de cejas"
-"¿Hacen microblading?"
-"Quiero agendar un laminado de cejas"
-"Necesito cambiar mi cita de shading"
-"Quiero cancelar mi cita de microshading"
+"Quiero hacerme microblading"
+"Necesito un turno para micropigmentaciom"
+"¿Cuánto cuesta la micro?"
+"Dame turno de micropigmentacion de cejas"
+"Me gustaría agendar un microblading"
+"Quiero cambiar mi turno de micropigmentación"
+"Quiero cancelar mi turno de shading"
+"Quiero agendar un microblading"
+"micropigmentacion de cejas"
+
 Criterio:
-Si el usuario menciona "cejas" o términos relacionados como "perfilado", "microblading", "shading" o "laminado", se redirige al flujo correspondiente.
+Si el usuario menciona técnicas como "microblading", "shading", "microshading" o "cover up" o "micropigmentacion de cejas", se redirige al flujo correspondiente.
 
-LABIOS
+MICROPIGMENTACIÓN DE LABIOS
 Descripción:
-Este flujo se activa cuando el usuario menciona "labios" o quiere gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "micropigmentación de labios" o quiere gestionar un turno para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero hacerme un Full Lips"
-"Necesito una cita para Aquarella Lips"
+"Quiero hacerme Full Lips"
+"Necesito un turno para Aquarella Lips"
 "¿Cuánto cuesta el Hidragloss?"
 "Me gustaría agendar un Full Lips para el fin de semana"
-"Quiero cambiar mi cita de micropigmentación de labios"
-"Quiero cancelar mi cita de labios"
+"Quiero cambiar mi turno de micropigmentación de labios"
+"Quiero cancelar mi turno de labios"
+"Quiero agendar un turno de labios"
+"micropigmentacion de labios"
+
 Criterio:
 Si el usuario menciona "labios" o tratamientos como "Full Lips", "Aquarella Lips" o "Hidragloss", se redirige al flujo correspondiente.
 
-DELINEADO DE PÁRPADOS
+LAMINADO DE CEJAS
 Descripción:
-Este flujo se activa cuando el usuario menciona "delineado de párpados" o quiere gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "perfilado", "laminado de cejas" o quiere gestionar un turno para este servicio.
 
 Ejemplos de intenciones:
 
-"Quiero hacerme un delineado de ojos"
-"¿Tienen delineado superior con colita?"
-"Necesito una cita para baby line"
-"Quiero cambiar mi cita de delineado grueso"
-"Quiero cancelar mi cita de delineado"
-Criterio:
-Si el usuario menciona "delineado de párpados" o especifica "baby line", "con colita", "grueso" u otros estilos, se redirige al flujo correspondiente.
-
-PERFILADO Y LAMINADO DE CEJAS
-Descripción:
-Este flujo se activa cuando el usuario menciona "perfilado", "laminado de cejas" o quiere gestionar una cita para este servicio.
-
-Ejemplos de intenciones:
-
-"Quiero un perfilado de cejas"
+"Quiero un laminado de cejas"
 "¿Hacen laminado de cejas?"
-"Necesito una cita para perfilado con tinte"
-"Quiero cambiar mi cita de laminado"
-"Quiero cancelar mi cita de cejas"
+"Necesito un turno para laminado"
+"Quiero cambiar mi turno de laminado"
+"Quiero cancelar mi turno de cejas"
+"Quiero agendar un laminado"
+"perfilado"
+"laminado de cejas"
 Criterio:
 Si el usuario menciona "perfilado", "laminado" o "tinte de cejas", se redirige al flujo correspondiente.
 
 LIFTING DE PESTAÑAS
+
 Descripción:
-Este flujo se activa cuando el usuario menciona "lifting de pestañas" o quiere gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "lifting de pestañas" o quiere gestionar un turno para este servicio.
 
 Ejemplos de intenciones:
 
 "Quiero hacerme un lifting de pestañas"
 "¿Tienen lifting con botox nutritivo?"
-"Necesito una cita para lifting con tinte"
-"Quiero cambiar mi cita de pestañas"
-"Quiero cancelar mi cita de lifting de pestañas"
+"Necesito un turno para lifting con tinte"
+"Quiero cambiar mi turno de pestañas"
+"Quiero cancelar mi turno de lifting de pestañas"
+"Quiero agendar un lifting"
+"lifting de pestañas"
+
 Criterio:
 Si el usuario menciona "lifting de pestañas" o tratamientos relacionados, se redirige al flujo correspondiente.
 
-TRATAMIENTOS FACIALES
+DEPILACIÓN
+
 Descripción:
-Este flujo se activa cuando el usuario menciona "tratamientos faciales" o desea gestionar una cita para este servicio.
+Este flujo se activa cuando el usuario menciona "depilación" o quiere gestionar un turno para alguno de los servicios de depilación disponibles.
 
 Ejemplos de intenciones:
 
-"Quiero un tratamiento facial"
-"¿Hacen limpieza facial profunda?"
-"Necesito una cita para radiofrecuencia"
-"Quiero cambiar mi cita de limpieza aclaradora"
-"Quiero cancelar mi cita de facial"
+"Quiero hacerme diseño de cejas con hilo"
+"¿Tienen depilación facial con hilo?"
+"Necesito un turno para depilación de patillas"
+"Quiero cambiar mi turno de depilación"
+"Quiero cancelar mi turno de depilación"
+"Quiero agendar una depilación"
+"Depilación de cejas con hilo"
+"Depilación facial"
+
 Criterio:
-Si el usuario menciona "facial" o tratamientos como "dermaplaning", "radiofrecuencia" o "limpieza con punta de diamantes", se redirige al flujo correspondiente.
+Si el usuario menciona "depilación", "diseño de cejas", "depilación facial" o tratamientos relacionados, se redirige al flujo correspondiente.
+
 
 CANCELAR
 Descripción:
