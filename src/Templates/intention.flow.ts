@@ -43,27 +43,27 @@ export const DetectIntention = createFlowRouting
             return gotoFlow(faqFlow);
           }
 
-          if ((await state.get("intention")) === "MANICURE") {
+          if ((await state.get("intention")) === "DEPILACION") {
             return gotoFlow(manicureflow);
           }
 
-          if ((await state.get("intention")) === "MAQUILLAJE") {
+          if ((await state.get("intention")) === "LIFTING_DE_PESTAÑAS") {
             return gotoFlow(maquillajeflow);
           }
 
-          if ((await state.get("intention")) === "PESTAÑAS") {
+          if ((await state.get("intention")) === "LAMINADO_DE_CEJAS") {
             return gotoFlow(pestañasflow);
           }
 
-          if ((await state.get("intention")) === "COLORACION") {
+          if ((await state.get("intention")) === "MICROPIGMENTACION_DE_CEJAS") {
             return gotoFlow(coloracionflow);
           }
 
-          if ((await state.get("intention")) === "CORTECABLLO") {
+          if ((await state.get("intention")) === "MICROPIGMENTACION_DE_LABIOS") {
             return gotoFlow(cortecabelloflow);
           }
 
-          if ((await state.get("intention")) === "FACIAL") {
+          if ((await state.get("intention")) === "MICROPIGMNETACION_DE_PARPADOS") {
             return gotoFlow(facialflow);
           }
 
