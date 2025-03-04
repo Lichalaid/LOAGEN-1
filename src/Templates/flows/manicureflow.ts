@@ -9,7 +9,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const DEFAULT_PROFESIONAL = "BARBARA";
 const DEFAULT_DURATION = 2; // 2 hora
-const DEFAULT_SERVICIO = "EXTENSIONES Y REPOSICIÓN DE PESTAÑAS"
+const DEFAULT_SERVICIO = "EXTENSIONES DE PESTAÑAS"
 const promptBase = `Eres un asistente virtual diseñado para ayudar a los usuarios a agendar citas mediante una conversación. 
 Tu objetivo es únicamente ayudar al usuario a elegir un horario y una fecha para sacar turno. 
 Te voy a dar la fecha solicitada por el usuario y la disponibilidad de la misma. 
