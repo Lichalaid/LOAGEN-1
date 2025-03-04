@@ -23,7 +23,7 @@ const promptDetected = fs.readFileSync(Prompt_DETECTED, "utf8");
 export const DetectIntention = createFlowRouting
   .setKeyword(EVENTS.ACTION)
   .setIntentions({
-    intentions: ["MANICURE", "MAQUILLAJE","PESTAÑAS","COLORACION","CORTECABLLO","FACIAL", "FAQ", "CANCELAR", "NO_DETECTED"],
+    intentions: ["MICROPIGMENTACION_DE_CEJAS", "MICROPIGMENTACION_DE_LABIOS","MICROPIGMENTACION_DE_PARPADOS","EXTENSION_DE_PESTAÑA","LIFTING_Y_LAMINADOS","DEPILACION", "FAQ", "CANCELAR", "NO_DETECTED"],
     description: promptDetected,
   })
   .setAIModel({
@@ -43,15 +43,15 @@ export const DetectIntention = createFlowRouting
             return gotoFlow(faqFlow);
           }
 
-          if ((await state.get("intention")) === "DEPILACION") {
+          if ((await state.get("intention")) === "EXTENSION_DE_PESTAÑA") {
             return gotoFlow(manicureflow);
           }
 
-          if ((await state.get("intention")) === "LIFTING_DE_PESTAÑAS") {
+          if ((await state.get("intention")) === "LIFTING_Y_LAMINADOS") {
             return gotoFlow(maquillajeflow);
           }
 
-          if ((await state.get("intention")) === "LAMINADO_DE_CEJAS") {
+          if ((await state.get("intention")) === "DEPILACION") {
             return gotoFlow(pestañasflow);
           }
 
