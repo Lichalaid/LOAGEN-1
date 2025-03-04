@@ -7,7 +7,7 @@ import { config } from "~/config";
 const aiServiceInstance = new AiServices(config.ApiKey);
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-const DEFAULT_PROFESIONAL = "Rudimar";
+const DEFAULT_PROFESIONAL = "RUDIMAR";
 const DEFAULT_DURATION = 3; // 3 hora
 const DEFAULT_SERVICIO = "MICROPIGMENTACION DE LABIOS"
 const promptBase = `Eres un asistente virtual diseñado para ayudar a los usuarios a agendar citas mediante una conversación. 
