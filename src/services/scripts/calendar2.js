@@ -16,18 +16,17 @@ const auth = new google.auth.GoogleAuth({
 const calendar = google.calendar({ version: "v3" });
 
 //Constantes configurables
-const calendarID = 'c3c562b997d4d6e2161aa36346a257dfe8826b9b59631839ea0357b9cb4bf732@group.calendar.google.com';
-const timeZone = 'America/Bogota';
+const calendarID = '978e3e1f6d31e71c8a65136b4f240ec0a2a79913838b2a28dd9464cbafc76f67@group.calendar.google.com';
+const timeZone = 'Europe/Spain';
 
 const rangeLimit = {
     days: {
-        0: { startHour: 10, endHour: 16 }, // Domingo
-        1: { startHour: 8, endHour: 20 },  // Lunes
-        2: { startHour: 9, endHour: 18 },  // Martes
-        3: { startHour: 8, endHour: 19 },  // Miércoles
-        4: { startHour: 9, endHour: 17 },  // Jueves
-        5: { startHour: 10, endHour: 15 }, // Viernes
-        6: { startHour: 11, endHour: 14 }, // Sábado
+        1: { startHour: 10, endHour: 19 },  // Lunes
+        2: { startHour: 10, endHour: 19 },  // Martes
+        3: { startHour: 10, endHour: 19 },  // Miércoles
+        4: { startHour: 10, endHour: 19 },  // Jueves
+        5: { startHour: 10, endHour: 19 }, // Viernes
+        6: { startHour: 110, endHour: 19 }, // Sábado
     }
 };
 
