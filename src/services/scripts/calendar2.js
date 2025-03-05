@@ -17,7 +17,7 @@ const calendar = google.calendar({ version: "v3" });
 
 //Constantes configurables
 const calendarID = '978e3e1f6d31e71c8a65136b4f240ec0a2a79913838b2a28dd9464cbafc76f67@group.calendar.google.com';
-const timeZone = 'Europe/Spain';
+const timeZone = 'Europe/Madrid';
 
 const rangeLimit = {
     days: {
