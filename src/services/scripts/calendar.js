@@ -16,23 +16,20 @@ const auth = new google.auth.GoogleAuth({
 const calendar = google.calendar({ version: "v3" });
 
 //Constantes configurables
-const calendarID = '6d7e3384c71e15281d9d8ad653b650728093808dbc3da3ec04b97ad354a83019@group.calendar.google.com';
-const timeZone = 'America/Bogota';
+const calendarID = '6a9e452c322c65bc6d550efee595d311bcb7b750158d0a9a8d632e384995af59@group.calendar.google.com';
+const timeZone = 'Europe/Madrid';
 
 const rangeLimit = {
     days: {
-        0: { startHour: 10, endHour: 16 }, // Domingo
-        1: { startHour: 8, endHour: 20 },  // Lunes
-        2: { startHour: 9, endHour: 18 },  // Martes
-        3: { startHour: 8, endHour: 19 },  // Miércoles
-        4: { startHour: 9, endHour: 17 },  // Jueves
-        5: { startHour: 10, endHour: 15 }, // Viernes
+        1: { startHour: 10, endHour: 18 },  // Lunes
+        2: { startHour: 10, endHour: 18 },  // Martes
+        3: { startHour: 10, endHour: 18 },  // Miércoles
         6: { startHour: 11, endHour: 14 }, // Sábado
     }
 };
 
 
-const standardDuration = 1.0; //Duracion por defecto de las citas 
+const standardDuration = 3.0; //Duracion por defecto de las citas 
 const dateLimit = 30; //Maximo de dias a taer la lista de Next Events
 
 /**
