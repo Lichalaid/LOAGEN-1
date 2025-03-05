@@ -26,7 +26,7 @@ const rangeLimit = {
         3: { startHour: 10, endHour: 19 },  // Miércoles
         4: { startHour: 10, endHour: 19 },  // Jueves
         5: { startHour: 10, endHour: 19 }, // Viernes
-        6: { startHour: 110, endHour: 19 }, // Sábado
+        6: { startHour: 10, endHour: 19 }, // Sábado
     }
 };
 
